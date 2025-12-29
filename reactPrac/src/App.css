@@ -1,0 +1,33 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+}
+
+#parent1, #parent2 {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#parent1, #parent2{
+  background: #4a90e2;
+  color: #fff;
+  text-align: center;
+}
+
+#parent2 {
+  background: #50e3c2;
+  color: #333;
+}
+
+h1,h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+h2{
+  font-weight: normal;
+}
