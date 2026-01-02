@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+/* Header container */
+.Header {
+  width: auto;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  padding: 16px 24px;
+}
+
+/* Gradient heading */
+.Header h1 {
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  background: linear-gradient(to right, red, blue, rgb(246, 5, 246));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Glow effect */
+  /* text-shadow:
+    0 0 8px rgba(249, 0, 0, 0.86),
+    0 0 16px rgba(10, 104, 255, 0.6),
+    0 0 24px rgba(26, 1, 50, 0.74);
+  */
+}
+
+
+/* Button styling */
+.Header button {
+  background-color: #fff;
+  color: #111;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.Header button:hover {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+.Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;   /* dark background */
+  color: #fff;              /* white text */
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.Button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+/* Optional: style the h3 inside */
+.Button h3 {
+  margin: 0;
+  font-size: 16px;
+}
