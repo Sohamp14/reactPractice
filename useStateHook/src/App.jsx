@@ -24,6 +24,13 @@ const App = () => {
     setCount(count - 1)
   }
 
+  function jump5num() {
+    setCount(count + 5)
+  }
+
+  function Jump5Back() {
+    setCount(count - 5)
+  }
   return (
     <div className="app-container">
 
@@ -39,6 +46,8 @@ const App = () => {
       <h1 className="heading">{count}</h1>
       <button className="btn" onClick={increaseCount}>Increase</button>
       <button className="btn" onClick={decreaseCount}>Decrease</button>
+      <button className="btn" onClick={jump5num}>Increase by 5</button>
+      <button className="btn" onClick={Jump5Back}>Decrease by 5</button>
     </div>
   )
 }
