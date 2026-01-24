@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  padding: 16px 24px;
+}
+
+/* Gradient logo */
+.logo {
+  font-size: 32px;
+  font-weight: 900;
+  background: linear-gradient(to right, red, blue, rgb(246, 5, 246));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+/* Style for react-router-dom Link */
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover glow effect */
+.nav-links a:hover {
+  color: #ff9800;
+  text-shadow:
+    0 0 8px rgba(249, 0, 0, 0.86),
+    0 0 16px rgba(10, 104, 255, 0.6),
+    0 0 24px rgba(246, 5, 246, 0.74);
+}
